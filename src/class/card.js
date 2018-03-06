@@ -7,6 +7,14 @@
                 x: x,
                 y: y
             }
+            stats: {
+                hp: 50,
+                hpMax: 100,
+                mp: 50,
+                mpMax: 100,
+                exp: 50,
+                expMax: 500
+            }
         }
         card.image = new Image();
         card.image.src = "../images/acfun_emoji/" + type + ".png"
